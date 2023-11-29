@@ -1,0 +1,84 @@
+.todomain{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tododiv-1 > h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#todoinput{
+    height: 2rem;
+    border-radius: 20px;
+    width: 30%;
+    padding: 0.2rem 0.4rem 0.1rem 0.4rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+#addbtn{
+    border-radius: 7px;
+    height: 28%;
+    padding: 0.2rem 0.4rem 0.1rem 0.4rem;
+    margin-right: 1rem;
+}
+
+#deleteallbtn{
+    border-radius: 7px;
+    height: 28%;
+    padding: 0.2rem 0.4rem 0.1rem 0.4rem;
+
+}
+.tododiv-1{
+display: flex;
+justify-content:  center;
+align-items: end;
+height: 50%;
+width: 100%;
+}
+.tododiv-2{
+display: flex;
+justify-content:  center;
+align-items: center;
+height: 50%;
+width: 80%;
+}
+.todoclass{
+    background-color: grey;
+    height: 40%;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#todool{
+width: 80%;
+height: 100%;
+
+}
+.editbtn{
+    border-radius: 7px;
+    height: 38%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    line-height: 0.4rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.deletebtn{
+    border-radius: 7px;
+    height: 38%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    line-height: 0.4rem;
+    margin-right: 0.5rem;
+}
